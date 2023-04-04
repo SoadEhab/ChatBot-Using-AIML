@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="741.0" style="-fx-background-color: radial-gradient(center 70% 70% , radius 90% , #047a7d,#04989a);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gov.iti.jets.ChatController">
+    <children>
+        <ScrollPane fx:id="scroll" fitToWidth="true" layoutX="27.0" layoutY="23.0" prefHeight="573.0" prefWidth="694.0">
+            <content>
+                <VBox fx:id="vbox" prefHeight="570.0" prefWidth="709.0" style="-fx-background-color: #f5f4f4; -fx-border-radius: 50;">
+
+                </VBox>
+            </content>
+        </ScrollPane>
+        <TextField fx:id="txtAreaId" layoutX="63.0" layoutY="621.0" onAction="#sendMsg" prefHeight="40.0" prefWidth="616.0" />
+    </children>
+</Pane>
